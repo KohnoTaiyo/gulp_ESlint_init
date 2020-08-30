@@ -1,0 +1,35 @@
+body, ul, li, input {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  text-align: center;
+}
+
+input[type=text] {
+  color: #fff;
+  background: #000;
+  height: 30px;
+  border-radius: 5px;
+  width: 99%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 97%;
+}
+
+.lists li {
+  list-style: none;
+}
+
+.lists li .delete {
+  margin-left: 10px;
+  padding: 10px;
+}
